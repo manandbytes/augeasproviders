@@ -16,6 +16,7 @@ env:
   # Test the latest ruby-augeas (~>)
   - PUPPET=3.2.0 RUBY_AUGEAS=0.5
   - PUPPET=3.4 RUBY_AUGEAS=0.5
+  - PUPPET=4.0 RUBY_AUGEAS=0.5
   # Test other versions of Augeas
   - PUPPET=2.7.0 RUBY_AUGEAS=0.3.0 AUGEAS=0.10.0
   - PUPPET=3.4 RUBY_AUGEAS=0.3.0 AUGEAS=0.10.0
